@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" name="viewport"
+          content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <title></title>
+    <style>
+        a {
+            text-decoration: none;
+            color: dimgray;
+            font-size: 15px;
+        }
+
+        body {
+            background-color: lightgrey;
+        }
+
+        .title {
+            margin-left: -8px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            height: 50px;
+            background-color: white;
+            line-height: 50px;
+            font-size: 20px;
+            float: left;
+            z-index: 1000;
+            max-width: 1200px;
+
+        }
+
+        .main {
+            margin-top: 100px;
+            margin-left: -46px;
+            max-width: 1200px;
+        }
+
+        .ti1 {
+            position: absolute;
+            left: 10px;
+            top: 8px;
+            float: left;
+        }
+
+        .ti2 {
+            float: left;
+            position: absolute;
+            top: 8px;
+            right: 20px;
+        }
+
+        .ti3 {
+            position: absolute;
+            left: 45%;
+            float: left;
+        }
+
+        .name {
+            position: absolute;
+            top: 65px;
+            font-size: 20px;
+        }
+
+        .tb {
+            position: absolute;
+            left: 2%;
+            top: 130px;
+            padding: 10px;
+            background-color: white;
+            border-radius: 15px 15px 15px 15px;
+            margin: 0 auto;
+            margin-left: 5%;
+            width: 80%;
+            height: 850px;
+        }
+
+        .tb table {
+            margin: 0 auto;
+        }
+
+        .tb table .txt {
+            margin-top: 10px;
+            width: 80px;
+            height: 25px;
+            border-radius: 10px 10px 10px 10px;
+            border: 1px solid darkgray;
+            margin-left:20px;;
+        }
+
+        .tj {
+            margin-top: 10px;
+            height: 30px;
+
+            background-color: dimgray;
+            border: 1px solid dimgray;
+            color: white;
+            border-radius: 5px 5px 5px 5px;
+        }
+
+        tr {
+            height: 50px;
+        }
+    </style>
+
+    <script>
+
+        function onBridgeReady() {
+            var data = {$data};
+            WeixinJSBridge.invoke(
+                    'getBrandWCPayRequest', data,
+                    function (res) {
+                        if (res.err_msg == "get_brand_wcpay_request:ok") {
+                            // 使用以上方式判断前端返回,微信团队郑重提示：res.err_msg将在用户支付成功后返回    ok，但并不保证它绝对可靠。
+                        } else {
+                            alert(res.err_code + res.err_desc + res.err_msg); // 显示错误信息
+                        }
+                    }
+            );
+        }
+
+        if (typeof WeixinJSBridge == "undefined") {
+            if (document.addEventListener) {
+                document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
+            } else if (document.attachEvent) {
+                document.attachEvent('WeixinJSBridgeReady', onBridgeReady);
+                document.attachEvent('onWeixinJSBridgeReady', onBridgeReady);
+            }
+        } else {
+            onBridgeReady();
+        }
+
+    </script>
+
+
+
+
+
+
+
+
+</head>
+<body>
+<div class="title">
+    <div class="ti3">
+        <font>预约</font>
+    </div>
+    <div class="ti1">
+        <a href="__URL__/.html"><img src="__PUBLIC__/Home/img/home.png"/></a>
+    </div>
+</div>
+
+<div class="main">
+    <div class="tb">
+        <form id="yy2">
+            <table>
+
+                <tr>
+                    <td>前保险杠</td>
+
+                    <td><input type="text"   value="<if condition='$infos.qbxg eq null'>0 <else/>{$infos.qbxg}</if>" readonly class="txt">元</td>
+                </tr>
+
+                <tr>
+                    <td>发动机舱盖</td>
+                    <td><input type="text"  value="<if condition='$infos.fdjcg eq null'>0 <else/>{$infos.fdjcg}</if>" readonly class="txt">元</td>
+                </tr>
+                <tr>
+                    <td>左前翼子板</td>
+                    <td><input type="text"  value="<if condition='$infos.zqyzb eq null'>0 <else/>{$infos.zqyzb}</if>" readonly class="txt">元</td>
+                </tr>
+                <tr>
+                    <td>右前翼子板</td>
+                    <td><input type="text"  value="<if condition='$infos.yqyzb eq null'>0 <else/>{$infos.yqyzb}</if>" readonly class="txt">元</td>
+                </tr>
+                <tr>
+                    <td>做底大边</td>
+                    <td><input type="text"  value="<if condition='$infos.zddb eq null'>0 <else/>{$infos.zddb}</if>" readonly class="txt">元</td>
+                </tr>
+                <tr>
+                    <td>左反光镜</td>
+                    <td><input type="text"  value="<if condition='$infos.zfgj eq null'>0 <else/>{$infos.zfgj}</if>" readonly class="txt">元</td>
+                </tr>
+                <tr>
+                    <td>右反光镜</td>
+                    <td><input type="text"  value="<if condition='$infos.yfgj eq null'>0 <else/>{$infos.yfgj}</if>" readonly class="txt">元</td>
+                </tr>
+                <tr>
+                    <td>左前门</td>
+                    <td><input type="text"  value="<if condition='$infos.zqm eq null'>0 <else/>{$infos.zqm}</if>" readonly class="txt">元</td>
+                </tr>
+                <tr>
+                    <td>右前门</td>
+                    <td><input type="text"  value="<if condition='$infos.yqm eq null'>0 <else/>{$infos.yqm}</if>" readonly class="txt">元</td>
+                </tr>
+                <tr>
+                    <td>车顶</td>
+                    <td><input type="text"  value="<if condition='$infos.cd eq null'>0 <else/>{$infos.cd}</if>" readonly class="txt">元</td>
+                </tr>
+                <tr>
+                    <td>左后门</td>
+                    <td><input type="text"  value="<if condition='$infos.yhm eq null'>0 <else/>{$infos.yhm}</if>" readonly class="txt">元</td>
+                </tr>
+                <tr>
+                    <td>行李箱盖</td>
+                    <td><input type="text"  value="<if condition='$infos.xlxg eq null'>0 <else/>{$infos.xlxg}</if>" readonly class="txt">元</td>
+                </tr>
+                <tr>
+                    <td>左后翼子板</td>
+                    <td><input type="text"  value="<if condition='$infos.zhyzb eq null'>0 <else/>{$infos.zhyzb}</if>" readonly class="txt">元</td>
+                </tr>
+                <tr>
+                    <td>右后翼子板</td>
+                    <td><input type="text"  value="<if condition='$infos.yhyzb eq null'>0 <else/>{$infos.yhzyb}</if>" readonly class="txt">元</td>
+                </tr>
+                <tr>
+                    <td>后保险杠</td>
+                    <td><input type="text"  value="<if condition='$infos.hbxg eq null'>0 <else/>{$infos.hbxg}</if>" readonly class="txt">元</td>
+                </tr>
+
+
+
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="button" value="立即支付" onclick="callpay()"  class="tj">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Amaze UI Admin index Examples</title>
+    <meta name="description" content="这是一个 index 页面">
+    <meta name="keywords" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="icon" type="image/png" href="assets/i/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+    <link rel="stylesheet" href="__PUBLIC__/Admin/assets/css/amazeui.min.css"/>
+    <link rel="stylesheet" href="__PUBLIC__/Admin/assets/css/admin.css">
+    <link rel="stylesheet" href="__PUBLIC__/Admin/assets/css/app.css">
+</head>
+
+<body data-type="generalComponents">
+
+
+<include file="top"/>
+
+
+<div class="tpl-page-container tpl-page-header-fixed">
+
+
+    <include file="header"/>
+
+
+    <div class="tpl-content-wrapper">
+        <div class="tpl-content-page-title">
+            Amaze UI 文字列表
+        </div>
+        <ol class="am-breadcrumb">
+            <li><a href="#" class="am-icon-home">首页</a></li>
+            <li><a href="#">Amaze UI CSS</a></li>
+            <li class="am-active">文字列表</li>
+        </ol>
+        <div class="tpl-portlet-components">
+            <div class="portlet-title">
+                <div class="caption font-green bold">
+                    品牌列表
+                </div>
+
+
+            </div>
+            <div class="tpl-block">
+
+                <div class="am-g">
+                    <div class="am-u-sm-12">
+
+                            <table class="am-table am-table-striped am-table-hover table-main">
+                                <thead>
+                                <tr>
+                                    <th class="table-check"><input type="checkbox" class="tpl-table-fz-check"></th>
+                                    <th class="table-id">ID</th>
+                                    <th class="table-title">微信昵称</th>
+                                    <th class="table-set">操作</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <volist name="info" id="vo">
+                                    <tr>
+                                        <td><input type="checkbox"></td>
+                                        <td>{$i}</td>
+                                        <td><a href="#">{$vo.username}</a></td> <form method="post" action="__URL__/addadmin">
+                                        <td>
+
+                                            <input type="hidden" value="{$vo.uid}" name="uid">
+                                            试驾管理员<input type="checkbox" value="1" name="sjadmin" <if condition="$vo.role1 eq 1">checked</if>>
+                                            保养管理员<input type="checkbox" value="1" name="byadmin" <if condition="$vo.role2 eq 1">checked</if>>
+                                            维修管理员<input type="checkbox" value="1" name="wxadmin" <if condition="$vo.role3 eq 1">checked</if>>
+                                            钣金喷漆管理员<input type="checkbox" value="1" name="bjadmin" <if condition="$vo.role4 eq 1">checked</if>>
+
+                                                <input type="submit"
+                                                   class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only" value="分配权限">
+
+
+                                        </td></form>
+
+                                    </tr>
+                                </volist>
+
+                                </tbody>
+                            </table>
+                            <div class="am-cf am-pagination tpl-pagination">
+                                {$page}
+                            </div>
+                            <hr>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="tpl-alert"></div>
+        </div>
+
+
+    </div>
+
+</div>
+
+
+<script src="__PUBLIC__/Admin/assets/js/jquery.min.js"></script>
+<script src="__PUBLIC__/Admin/assets/js/amazeui.min.js"></script>
+<script src="__PUBLIC__/Admin/assets/js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Amaze UI Admin index Examples</title>
+    <meta name="description" content="这是一个 index 页面">
+    <meta name="keywords" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="icon" type="image/png" href="assets/i/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+    <link rel="stylesheet" href="__PUBLIC__/Admin/assets/css/amazeui.min.css"/>
+    <link rel="stylesheet" href="__PUBLIC__/Admin/assets/css/admin.css">
+    <link rel="stylesheet" href="__PUBLIC__/Admin/assets/css/app.css">
+</head>
+
+<body data-type="generalComponents">
+
+
+<header class="am-topbar am-topbar-inverse admin-header">
+    <div class="am-topbar-brand">
+        <a href="javascript:;" class="tpl-logo">
+            <img src="__PUBLIC__/Admin/assets/img/logo.png" alt="">
+        </a>
+    </div>
+    <div class="am-icon-list tpl-header-nav-hover-ico am-fl am-margin-right">
+
+    </div>
+
+    <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only"
+            data-am-collapse="{target: '#topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span
+            class="am-icon-bars"></span></button>
+
+    <div class="am-collapse am-topbar-collapse" id="topbar-collapse">
+
+        <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right admin-header-list tpl-header-list">
+            <li class="am-hide-sm-only"><a href="javascript:;" id="admin-fullscreen" class="tpl-header-list-link"><span
+                    class="am-icon-arrows-alt"></span> <span class="admin-fullText">开启全屏</span></a></li>
+
+            <li class="am-dropdown" data-am-dropdown data-am-dropdown-toggle>
+                <a class="am-dropdown-toggle tpl-header-list-link" href="javascript:;">
+                    <span class="tpl-header-list-user-nick">禁言小张</span><span class="tpl-header-list-user-ico"> <img
+                        src="__PUBLIC__/Admin/assets/img/user01.png"></span>
+                </a>
+                <ul class="am-dropdown-content">
+                    <li><a href="#"><span class="am-icon-bell-o"></span> 资料</a></li>
+                    <li><a href="#"><span class="am-icon-cog"></span> 设置</a></li>
+                    <li><a href="#"><span class="am-icon-power-off"></span> 退出</a></li>
+                </ul>
+            </li>
+            <li><a href="###" class="tpl-header-list-link"><span
+                    class="am-icon-sign-out tpl-header-list-ico-out-size"></span></a></li>
+        </ul>
+    </div>
+</header>
+
+
+<div class="tpl-page-container tpl-page-header-fixed">
+
+
+    <include file="header"/>
+
+
+    <div class="tpl-content-wrapper">
+        <div class="tpl-content-page-title">
+            Amaze UI 文字列表
+        </div>
+        <ol class="am-breadcrumb">
+            <li><a href="#" class="am-icon-home">首页</a></li>
+            <li><a href="#">Amaze UI CSS</a></li>
+            <li class="am-active">文字列表</li>
+        </ol>
+        <div class="tpl-portlet-components">
+            <div class="portlet-title">
+                <div class="caption font-green bold">
+                    {$infos.displacementname}的零件列表
+                </div>
+
+
+            </div>
+            <div class="tpl-block">
+
+                <div class="am-g">
+                    <div class="am-u-sm-12">
+                        <form class="am-form">
+                            <table class="am-table am-table-striped am-table-hover table-main">
+                                <thead>
+                                <tr>
+                                    <th class="table-check"><input type="checkbox" class="tpl-table-fz-check"></th>
+                                    <th class="table-id">ID</th>
+                                    <th class="table-title">零件名称</th>
+                                    <th class="table-title">零件种类名称</th>
+                                    <th class="table-title">零件价格</th>
+                                    <th class="table-set">操作</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <volist name="info" id="vo">
+                                    <tr>
+                                        <td><input type="checkbox"></td>
+                                        <td>{$i}</td>
+                                        <td><a href="#">{$vo.dcname}</a></td>
+                                        <td><a href="#">{$vo.componentname}</a></td>
+                                        <td><a href="#">{$vo.dcprice}</a></td>
+                                        <td>
+                                            <div class="am-btn-toolbar">
+                                                <div class="am-btn-group am-btn-group-xs">
+                                                    <a href="__URL__/componentsave?id={$vo.dcid}"
+                                                       class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only">
+
+                                                  <span class="am-icon-pencil-square-o"></span>修改零件信息
+
+                                                    </a>
+                                                    <a href="__URL__/deldc?id={$vo.dcid}"
+                                                       class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only">
+
+                                                        <span class="am-icon-copy"></span>删除零件
+
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </volist>
+
+                                </tbody>
+                            </table>
+                            <div class="am-cf am-pagination tpl-pagination">
+                                {$page}
+                            </div>
+                            <hr>
+
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+            <div class="tpl-alert"></div>
+        </div>
+
+
+    </div>
+
+</div>
+
+
+<script src="__PUBLIC__/Admin/assets/js/jquery.min.js"></script>
+<script src="__PUBLIC__/Admin/assets/js/amazeui.min.js"></script>
+<script src="__PUBLIC__/Admin/assets/js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Amaze UI Admin index Examples</title>
+    <meta name="description" content="这是一个 index 页面">
+    <meta name="keywords" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="icon" type="image/png" href="assets/i/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+    <link rel="stylesheet" href="__PUBLIC__/Admin/assets/css/amazeui.min.css"/>
+    <link rel="stylesheet" href="__PUBLIC__/Admin/assets/css/admin.css">
+    <link rel="stylesheet" href="__PUBLIC__/Admin/assets/css/app.css">
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body data-type="generalComponents">
+
+
+
+<include file="top"/>
+
+
+<div class="tpl-page-container tpl-page-header-fixed">
+
+
+    <include file="header"/>
+
+
+    <div class="tpl-content-wrapper">
+        <div class="tpl-content-page-title">
+            Amaze UI 文字列表
+        </div>
+        <ol class="am-breadcrumb">
+            <li><a href="#" class="am-icon-home">首页</a></li>
+            <li><a href="#">Amaze UI CSS</a></li>
+            <li class="am-active">文字列表</li>
+        </ol>
+        <div class="tpl-portlet-components">
+            <div class="portlet-title">
+                <div class="caption font-green bold">
+                    维修预约列表
+                </div>
+
+
+            </div>
+            <div class="tpl-block">
+
+                <div class="am-g">
+                    <div class="am-u-sm-12">
+                        <form class="am-form">
+                            <table class="am-table am-table-striped am-table-hover table-main">
+                                <thead>
+                                <tr>
+                                    <th class="table-check"><input type="checkbox" class="tpl-table-fz-check"></th>
+                                    <th class="table-id">ID</th>
+                                    <th class="table-title">车型</th>
+                                    <th class="table-title">姓名</th>
+                                    <th class="table-set">车牌号</th>
+                                    <th class="table-set">预约时间</th>
+                                    <th class="table-set">手机号</th>
+                                    <th class="table-set">保养类型</th>
+                                    <th class="table-set">维修详情</th>
+
+
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <volist name="info" id="vo">
+
+
+
+                                    <tr>
+                                        <td><input type="checkbox"></td>
+                                        <td>{$i}</td>
+                                        <td><a href="#">{$vo.carname}-{$vo.modelname}-{$vo.displacementname}</a></td>
+                                        <td><a href="#">{$vo.xm}</a></td>
+                                        <td><a href="#">{$vo.cph}</a></td>
+                                        <td><a href="#">{$vo.sj}</a></td>
+                                        <td><a href="#">{$vo.tel}</a></td>
+                                        <td><a href="#"><if condition="$vo.zl eq 1">本店汽车维修<else/>其他汽车维修</if></a></td>
+                                        <td><a href="#"   data-toggle="modal" data-target="#myModal{$i}">点击查看</a>
+
+                                            <div class="modal fade" id="myModal{$i}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="margin-top: 150px;">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                                                &times;
+                                                            </button>
+                                                            <h4 class="modal-title" id="myModalLabel">
+                                                                保养详情
+                                                            </h4>
+                                                        </div>
+                                                        <div class="modal-body">
+
+                                                            故障描述：{$vo.gzms}<br>
+                                                            备注：{$vo.bz}
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                                                            </button>
+                                                        </div>
+                                                    </div><!-- /.modal-content -->
+                                                </div><!-- /.modal -->
+                                            </div>
+
+                                        </td>
+
+
+
+                                    </tr>
+
+
+</volist>
+                                </tbody>
+                            </table>
+                            <div class="am-cf am-pagination tpl-pagination">
+                                {$page}
+                            </div>
+                            <hr>
+
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+            <div class="tpl-alert"></div>
+        </div>
+
+
+    </div>
+
+</div>
+<!-- 模态框（Modal） -->
+
+
+<script src="__PUBLIC__/Admin/assets/js/jquery.min.js"></script>
+<script src="__PUBLIC__/Admin/assets/js/amazeui.min.js"></script>
+<script src="__PUBLIC__/Admin/assets/js/app.js"></script>
+</body>
+
+</html>

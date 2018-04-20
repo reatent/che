@@ -1,0 +1,1676 @@
+[ 2018-01-04T12:16:12+08:00 ] 124.161.23.11 /web/haval/index.php/Home/Index/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:16:13+08:00 ] 124.161.23.11 /web/haval/?code=021upBB60cyvyK1QiTE60FXyB60upBB4&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_user` WHERE ( openid='oFW0i0o1WStDZ5yaYVl0BsbPhDCI' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:16:17+08:00 ] 124.161.23.11 /web/haval/index.php/Home/Index/logo4?bytype=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0000s ]
+SQL: SELECT `firstword` FROM `sw_carbrand` GROUP BY firstword  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='A' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='B' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='C' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='D' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='F' )  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='G' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='H' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='J' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='K' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='L' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='M' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='N' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Q' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='R' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='s' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='W' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='X' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Y' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Z' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:16:35+08:00 ] 182.131.12.11 /web/haval/index.php/Home/Index/asdmd4?id=39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_carmodel` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0000s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel WHERE ( carbrand.id=carmodel.bid and bid='39' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:16:36+08:00 ] 182.131.12.11 /web/haval/index.php/Home/Index/logo4?bytype=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0000s ]
+SQL: SELECT `firstword` FROM `sw_carbrand` GROUP BY firstword  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='A' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='B' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='C' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='D' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='F' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='G' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='H' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='J' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='K' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='L' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='M' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='N' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Q' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='R' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='s' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='W' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='X' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Y' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Z' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:16:55+08:00 ] 182.131.12.11 /web/haval/index.php/Home/Index/asdmd4?id=65
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_carmodel` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0000s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel WHERE ( carbrand.id=carmodel.bid and bid='65' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:16:57+08:00 ] 182.131.12.11 /web/haval/index.php/Home/Index/logo4?bytype=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0000s ]
+SQL: SELECT `firstword` FROM `sw_carbrand` GROUP BY firstword  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='A' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='B' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='C' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='D' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='F' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='G' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='H' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='J' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='K' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='L' )  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='M' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='N' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Q' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='R' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='s' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='W' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='X' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Y' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Z' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:16:59+08:00 ] 182.131.12.11 /web/haval/index.php/Home/Index/asdmd4?id=66
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_carmodel` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0000s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel WHERE ( carbrand.id=carmodel.bid and bid='66' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:17:00+08:00 ] 182.131.12.11 /web/haval/index.php/Home/Index/logo4?bytype=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0156s ]
+SQL: SELECT `firstword` FROM `sw_carbrand` GROUP BY firstword  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='A' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='B' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='C' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='D' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='F' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='G' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='H' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='J' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='K' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='L' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='M' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='N' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Q' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='R' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='s' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='W' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='X' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Y' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Z' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:17:02+08:00 ] 182.131.12.11 /web/haval/index.php/Home/Index/asdmd4?id=70
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_carmodel` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0156s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel WHERE ( carbrand.id=carmodel.bid and bid='70' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:17:04+08:00 ] 124.161.23.11 /web/haval/index.php/Home/Index/logo4?bytype=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0000s ]
+SQL: SELECT `firstword` FROM `sw_carbrand` GROUP BY firstword  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='A' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='B' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='C' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='D' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='F' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='G' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='H' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='J' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='K' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='L' )  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='M' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='N' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Q' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='R' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='s' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='W' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='X' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Y' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Z' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:17:06+08:00 ] 182.131.12.11 /web/haval/index.php/Home/Index/asdmd4?id=71
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_carmodel` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0000s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel WHERE ( carbrand.id=carmodel.bid and bid='71' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:17:07+08:00 ] 182.131.12.11 /web/haval/index.php/Home/Index/logo4?bytype=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0000s ]
+SQL: SELECT `firstword` FROM `sw_carbrand` GROUP BY firstword  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='A' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='B' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='C' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='D' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='F' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='G' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='H' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='J' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='K' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='L' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='M' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='N' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Q' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='R' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='s' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='W' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='X' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Y' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Z' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:17:09+08:00 ] 182.131.12.11 /web/haval/index.php/Home/Index/asdmd4?id=72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_carmodel` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0000s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel WHERE ( carbrand.id=carmodel.bid and bid='72' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:17:10+08:00 ] 182.131.12.11 /web/haval/index.php/Home/Index/logo4?bytype=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0000s ]
+SQL: SELECT `firstword` FROM `sw_carbrand` GROUP BY firstword  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='A' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='B' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='C' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='D' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='F' )  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='G' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='H' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='J' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='K' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='L' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='M' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='N' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Q' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='R' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='s' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='W' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='X' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Y' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Z' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:17:11+08:00 ] 58.247.212.98 /web/haval/index.php/Home/Index/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:17:12+08:00 ] 182.131.12.11 /web/haval/index.php/Home/Index/asdmd4?id=73
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_carmodel` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0000s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel WHERE ( carbrand.id=carmodel.bid and bid='73' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:17:13+08:00 ] 182.131.12.11 /web/haval/index.php/Home/Index/logo4?bytype=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0000s ]
+SQL: SELECT `firstword` FROM `sw_carbrand` GROUP BY firstword  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='A' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='B' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='C' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='D' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='F' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='G' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='H' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='J' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='K' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='L' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='M' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='N' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Q' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='R' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='s' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='W' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='X' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Y' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Z' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:17:14+08:00 ] 182.131.12.11 /web/haval/index.php/Home/Index/asdmd4?id=74
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_carmodel` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0000s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel WHERE ( carbrand.id=carmodel.bid and bid='74' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:17:15+08:00 ] 182.131.12.11 /web/haval/index.php/Home/Index/logo4?bytype=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0000s ]
+SQL: SELECT `firstword` FROM `sw_carbrand` GROUP BY firstword  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='A' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='B' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='C' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='D' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='F' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='G' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='H' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='J' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='K' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='L' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='M' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='N' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Q' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='R' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='s' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='W' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='X' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Y' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Z' )  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:17:39+08:00 ] 121.51.32.144 /web/haval/index.php/Home/Index/asdmd4?id=39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:17:39+08:00 ] 121.51.32.144 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:17:55+08:00 ] 120.204.17.73 /web/haval/index.php/Home/Index/asdmd4?id=65
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:17:55+08:00 ] 120.204.17.73 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:18:09+08:00 ] 120.204.17.73 /web/haval/index.php/Home/Index/asdmd4?id=72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:18:10+08:00 ] 120.204.17.73 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:18:12+08:00 ] 120.204.17.68 /web/haval/index.php/Home/Index/asdmd4?id=73
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:18:13+08:00 ] 120.204.17.68 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:24:45+08:00 ] 182.131.12.11 /web/haval/index.php/Home/Index/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:24:48+08:00 ] 124.161.23.11 /web/haval/?code=021U3GiM0QGf342KP8jM0yyEiM0U3GiK&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_user` WHERE ( openid='oFW0i0o1WStDZ5yaYVl0BsbPhDCI' ) LIMIT 1   [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:24:50+08:00 ] 182.131.12.11 /web/haval/index.php/Home/Index/logo4?bytype=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0000s ]
+SQL: SELECT `firstword` FROM `sw_carbrand` GROUP BY firstword  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='A' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='B' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='C' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='D' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='F' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='G' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='H' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='J' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='K' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='L' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='M' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='N' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Q' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='R' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='s' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='W' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='X' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Y' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Z' )  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:25:27+08:00 ] 124.161.23.11 /web/haval/index.php/Home/Index/asdmd4?id=57
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_carmodel` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0000s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel WHERE ( carbrand.id=carmodel.bid and bid='57' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:25:35+08:00 ] 182.131.12.11 /web/haval/index.php/Home/Index/logo4?bytype=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0000s ]
+SQL: SELECT `firstword` FROM `sw_carbrand` GROUP BY firstword  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='A' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='B' )  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='C' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='D' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='F' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='G' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='H' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='J' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='K' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='L' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='M' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='N' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Q' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='R' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='s' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='W' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='X' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Y' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Z' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:26:26+08:00 ] 120.204.17.73 /web/haval/index.php/Home/Index/asdmd4?id=57
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:26:27+08:00 ] 120.204.17.73 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:26:36+08:00 ] 182.131.12.11 /web/haval/index.php/Home/Index/asdmd4?id=52
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_carmodel` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0000s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel WHERE ( carbrand.id=carmodel.bid and bid='52' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\haval\web\haval\Application\Home\Controller\IndexController.class.php 第 229 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:26:37+08:00 ] 182.131.12.11 /web/haval/index.php/Home/Index/logo4?bytype=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0000s ]
+SQL: SELECT `firstword` FROM `sw_carbrand` GROUP BY firstword  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='A' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='B' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='C' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='D' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='F' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='G' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='H' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='J' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='K' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='L' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='M' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='N' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Q' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='R' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='s' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='W' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='X' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Y' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Z' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-01-04T12:27:44+08:00 ] 182.131.12.11 /web/haval/index.php/Home/Index/asdmd4?id=52
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_carmodel` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0156s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel WHERE ( carbrand.id=carmodel.bid and bid='52' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:27:45+08:00 ] 124.161.23.11 /web/haval/index.php/Home/Index/logo4?bytype=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0156s ]
+SQL: SELECT `firstword` FROM `sw_carbrand` GROUP BY firstword  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='A' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='B' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='C' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='D' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='F' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='G' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='H' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='J' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='K' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='L' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='M' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='N' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Q' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='R' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='s' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='W' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='X' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Y' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Z' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:27:50+08:00 ] 182.131.12.11 /web/haval/index.php/Home/Index/asdmd4?id=52
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_carmodel` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0000s ]
+SQL: SELECT * FROM sw_carbrand carbrand,sw_carmodel carmodel WHERE ( carbrand.id=carmodel.bid and bid='52' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:27:59+08:00 ] 182.131.12.11 /web/haval/index.php/Home/Index/logo4?bytype=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `sw_carbrand` [ RunTime:0.0000s ]
+SQL: SELECT `firstword` FROM `sw_carbrand` GROUP BY firstword  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='A' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='B' )  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='C' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='D' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='F' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='G' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='H' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='J' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='K' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='L' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='M' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='N' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Q' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='R' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='s' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='W' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='X' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Y' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sw_carbrand` WHERE ( firstword='Z' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T12:50:23+08:00 ] 182.131.12.11 /web/haval/?code=021U3GiM0QGf342KP8jM0yyEiM0U3GiK&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sw_user` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: openid D:\WWW\haval\web\haval\Application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `sw_user` WHERE ( openid='' ) LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: subscribe D:\WWW\haval\web\haval\Application\Home\Controller\IndexController.class.php 第 78 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.015624s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015624s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:22:51+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/baoyangdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2018-01-04T22:23:13+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/baoyangdd?id=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:23:13+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:53:25+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/baoyangdd?id=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:54:03+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/'%22+onmouseover=alert()+d='%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:'"+onmouseover=alert()+d='"
+
+[ 2018-01-04T22:54:23+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/%27%22%20onmouseover%3Dalert%28%29%20d%3D%27%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:'" onmouseover=alert() d='"
+
+[ 2018-01-04T22:54:52+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/%2527%2522%2520onmouseover%253Dalert%2528%2529%2520d%253D%2527%2522
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:%27%22%20onmouseover%3Dalert%28%29%20d%3D%27%22
+
+[ 2018-01-04T22:55:44+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/baoyangdd/'%22+onmouseover=alert()+d='%22/?id=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:56:07+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:56:20+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/baoyangdd/%27%22%20onmouseover%3Dalert%28%29%20d%3D%27%22/?id=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:57:19+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:57:32+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/baoyangdd/%2527%2522%2520onmouseover%253Dalert%2528%2529%2520d%253D%2527%2522/?id=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:57:37+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:58:23+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/'%22/%3E%3C/script%3E%3Cscript%3Ealert()%3C/script%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:'"
+
+[ 2018-01-04T22:58:44+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/%2527%2522%252f%253E%253C%252fscript%253E%253Cscript%253Ealert%2528%2529%253C%252fscript%253E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:%27%22%2f%3E%3C%2fscript%3E%3Cscript%3Ealert%28%29%3C%2fscript%3E
+
+[ 2018-01-04T22:59:06+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/baoyangdd/'%22/%3E%3C/script%3E%3Cscript%3Ealert()%3C/script%3E/?id=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:10+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:24+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/baoyangdd/%2527%2522%252f%253E%253C%252fscript%253E%253Cscript%253Ealert%2528%2529%253C%252fscript%253E/?id=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:28+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:31+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/baoyangdd?id=33i9614138i
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:32+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:34+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/baoyangdd?id='%22/%3E%3Cimg/src/onerror=alert()%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:34+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:35+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/baoyangdd?id=%27%22%2f%3E%3Cimg%2fsrc%2fonerror%3Dalert%28%29%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:35+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:36+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/baoyangdd?id=%2527%2522%252f%253E%253Cimg%252fsrc%252fonerror%253Dalert%2528%2529%253E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:36+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:37+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/baoyangdd?id=33i9614138i
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:37+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:38+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/baoyangdd?id=javascript:alert(1987)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:38+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:39+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/baoyangdd?id=javascript%3Aalert%281987%29
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:39+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:40+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/baoyangdd?id=javascript%253Aalert%25281987%2529
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:40+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:41+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/baoyangdd?id=33i9614138i
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:41+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:42+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/baoyangdd?id='%22/%3E%3C/body%3E%3Cbody+onload=prompt()%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:42+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:43+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/baoyangdd?id=%27%22%2f%3E%3C%2fbody%3E%3Cbody%20onload%3dprompt%28%29%3e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:43+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:44+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/baoyangdd?id=%2527%2522%252f%253E%253C%252fbody%253E%253Cbody%2520onload%253dprompt%2528%2529%253e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:44+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:45+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/baoyangdd?id=33i9614138i
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:45+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:46+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/baoyangdd?id='%22+onmouseover=alert()+d='%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:46+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:47+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/baoyangdd?id=%27%22%20onmouseover%3Dalert%28%29%20d%3D%27%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:47+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:48+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/baoyangdd?id=%2527%2522%2520onmouseover%253Dalert%2528%2529%2520d%253D%2527%2522
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:48+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:49+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/baoyangdd?id=33i9614138i
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:49+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:50+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/baoyangdd?id='%22/%3E%3C/script%3E%3Cscript%3Ealert()%3C/script%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:50+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:51+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/baoyangdd?id=%27%22%2f%3E%3C%2fscript%3E%3Cscript%3Ealert%28%29%3C%2fscript%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:51+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:52+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/baoyangdd?id=%2527%2522%252f%253E%253C%252fscript%253E%253Cscript%253Ealert%2528%2529%253C%252fscript%253E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:52+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:53+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/baoyangdd?id=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:53+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:54+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/baoyangdd?id=PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:54+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:55+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/baoyangdd?id=amF2YXNjcmlwdDpwcm9tcHQoMTExKTt4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:55+08:00 ] 140.205.201.40 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:56+08:00 ] 140.205.201.13 /web/haval/index.php/Home/Index/baoyangdd?id=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-04T22:59:57+08:00 ] 140.205.201.13 /web/haval/index.php/Home/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Amaze UI Admin index Examples</title>
+    <meta name="description" content="这是一个 index 页面">
+    <meta name="keywords" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="icon" type="__PUBLIC__/Admin/image/png" href="assets/i/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="__PUBLIC__/Admin/assets/i/app-icon72x72@2x.png">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+    <link rel="stylesheet" href="__PUBLIC__/Admin/assets/css/amazeui.min.css"/>
+    <link rel="stylesheet" href="__PUBLIC__/Admin/assets/css/admin.css">
+    <link rel="stylesheet" href="__PUBLIC__/Admin/assets/css/app.css">
+</head>
+<body data-type="generalComponents">
+
+
+<include file="top"/>
+
+
+<div class="tpl-page-container tpl-page-header-fixed">
+    <include file="header"/>
+
+    <div class="tpl-content-wrapper">
+        <div class="tpl-content-page-title">
+            Amaze UI 表单
+        </div>
+        <ol class="am-breadcrumb">
+            <li><a href="#" class="am-icon-home">首页</a></li>
+            <li><a href="#">表单</a></li>
+            <li class="am-active">Amaze UI 表单</li>
+        </ol>
+        <div class="tpl-portlet-components">
+            <div class="portlet-title">
+                <div class="caption font-green bold">
+                    <span class="am-icon-code"></span> 表单
+                </div>
+                <div class="tpl-portlet-input tpl-fz-ml">
+                    <div class="portlet-input input-small input-inline">
+                        <div class="input-icon right">
+                            <i class="am-icon-search"></i>
+                            <input type="text" class="form-control form-control-solid" placeholder="搜索..."></div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="tpl-block ">
+
+                <div class="am-g tpl-amazeui-form">
+
+
+                    <div class="am-u-sm-12 am-u-md-9">
+                        <form class="am-form am-form-horizontal" method="post" action="__URL__/bjadd">
+                            <input type="hidden" name="did" value="{$id}">
+
+                            <div class="am-form-group">
+                                <label for="user-name"  class="am-u-sm-3 am-form-label">前保险杠</label>
+                                <div class="am-u-sm-9">
+                                    <input type="text"  name="qbxg" value="{$info.qbxg}"  >
+                                </div>
+                            </div>
+                            <div class="am-form-group">
+                                <label for="user-name"  class="am-u-sm-3 am-form-label">发动机舱盖</label>
+
+                                <div class="am-u-sm-9">
+                                    <input type="text"  name="fdjcg" value="{$info.fdjcg}"  >
+                                </div>
+                            </div>
+                            <div class="am-form-group">
+                                <label for="user-name"  class="am-u-sm-3 am-form-label">左前翼子板</label>
+
+                                <div class="am-u-sm-9">
+                                    <input type="text"  name="zqyzb" value="{$info.zqyzb}">
+                                </div>
+                            </div>
+                            <div class="am-form-group">
+                                <label for="user-name"  class="am-u-sm-3 am-form-label">右前翼子板</label>
+
+                                <div class="am-u-sm-9">
+                                    <input type="text"  name="yqyzb" value="{$info.yqyzb}">
+                                </div>
+                            </div>
+                            <div class="am-form-group">
+                                <label for="user-name"  class="am-u-sm-3 am-form-label">左底大边</label>
+
+                                <div class="am-u-sm-9">
+                                    <input type="text"  name="zddb" value="{$info.zddb}" >
+                                </div>
+                            </div>
+                            <div class="am-form-group">
+                                <label for="user-name"  class="am-u-sm-3 am-form-label">右底大边</label>
+
+                                <div class="am-u-sm-9">
+                                    <input type="text"  name="yddb" value="{$info.yddb}" >
+                                </div>
+                            </div>
+                            <div class="am-form-group">
+                                <label for="user-name"  class="am-u-sm-3 am-form-label">左反光镜</label>
+
+                                <div class="am-u-sm-9">
+                                    <input type="text"  name="zfgj" value="{$info.zfgj}">
+                                </div>
+                            </div>
+                            <div class="am-form-group">
+                                <label for="user-name"  class="am-u-sm-3 am-form-label">右反光镜</label>
+
+                                <div class="am-u-sm-9">
+                                    <input type="text"  name="yfgj" value="{$info.yfgj}" >
+                                </div>
+                            </div>
+                            <div class="am-form-group">
+                                <label for="user-name"  class="am-u-sm-3 am-form-label">左前门</label>
+
+                                <div class="am-u-sm-9">
+                                    <input type="text"  name="zqm" value="{$info.zqm}">
+                                </div>
+                            </div>
+                            <div class="am-form-group">
+                                <label for="user-name"  class="am-u-sm-3 am-form-label">右前门</label>
+
+                                <div class="am-u-sm-9">
+                                    <input type="text"  name="yqm" value="{$info.yqm}" >
+                                </div>
+                            </div>
+                            <div class="am-form-group">
+                                <label for="user-name"  class="am-u-sm-3 am-form-label">车顶</label>
+
+                                <div class="am-u-sm-9">
+                                    <input type="text"  name="cd" value="{$info.cd}">
+                                </div>
+                            </div>
+                            <div class="am-form-group">
+                                <label for="user-name"  class="am-u-sm-3 am-form-label">左后门</label>
+
+                                <div class="am-u-sm-9">
+                                    <input type="text"  name="zhm" value="{$info.zhm}">
+                                </div>
+                            </div>
+                            <div class="am-form-group">
+                                <label for="user-name"  class="am-u-sm-3 am-form-label">右后门</label>
+
+                                <div class="am-u-sm-9">
+                                    <input type="text"  name="yhm" value="{$info.yhm}">
+                                </div>
+                            </div>
+                            <div class="am-form-group">
+                                <label for="user-name"  class="am-u-sm-3 am-form-label">行李箱盖</label>
+
+                                <div class="am-u-sm-9">
+                                    <input type="text"  name="xlxg" value="{$info.xlxg}">
+                                </div>
+                            </div>
+                            <div class="am-form-group">
+                                <label for="user-name"  class="am-u-sm-3 am-form-label">左后翼子板</label>
+
+                                <div class="am-u-sm-9">
+                                    <input type="text"  name="zhyzb" value="{$info.zhyzb}">
+                                </div>
+                            </div>
+                            <div class="am-form-group">
+                                <label for="user-name"  class="am-u-sm-3 am-form-label">右后翼子板</label>
+
+                                <div class="am-u-sm-9">
+                                    <input type="text"  name="yhyzb" value="{$info.yhyzb}">
+                                </div>
+                            </div>
+                            <div class="am-form-group">
+                                <label for="user-name"  class="am-u-sm-3 am-form-label">后保险杠</label>
+
+                                <div class="am-u-sm-9">
+                                    <input type="text"  name="hbxg" value="{$info.hbxg}">
+                                </div>
+                            </div>
+
+
+                            <div class="am-form-group">
+                                <div class="am-u-sm-9 am-u-sm-push-3">
+                                    <input type="submit" class="am-btn am-btn-primary" value="提交价格" />
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+<script src="__PUBLIC__/Admin/assets/js/jquery.min.js"></script>
+<script src="__PUBLIC__/Admin/assets/js/amazeui.min.js"></script>
+<script src="__PUBLIC__/Admin/assets/js/app.js"></script>
+</body>
+
+</html>
