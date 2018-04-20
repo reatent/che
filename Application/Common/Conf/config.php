@@ -2,10 +2,10 @@
 return array(
     'URL_MODEL'=>1,
     'DB_TYPE'   => 'mysql', // 数据库类型
-    'DB_HOST'   => '127.0.0.1', // 服务器地址
-    'DB_NAME'   => 'reservation', // 数据库名
-    'DB_USER'   => 'root', // 用户名
-    'DB_PWD'    => 'fg544011909', // 密码
+    'DB_HOST'   => 'rm-2ze504pmqox2bgno02o.mysql.rds.aliyuncs.com', // 服务器地址
+    'DB_NAME'   => 'che', // 数据库名
+    'DB_USER'   => 'che', // 用户名
+    'DB_PWD'    => 'Che12345', // 密码
     'DB_PORT'   =>  3306, // 端口
     'DB_PREFIX' => 'sw_', // 数据库表前缀
     'DB_CHARSET'=> 'utf8', // 字符集

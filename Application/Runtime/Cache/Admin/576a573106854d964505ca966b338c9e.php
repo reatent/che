@@ -10,12 +10,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="renderer" content="webkit">
     <meta http-equiv="Cache-Control" content="no-siteapp" />
-    <link rel="icon" type="/web/haval/Public/Admin/image/png" href="assets/i/favicon.png">
-    <link rel="apple-touch-icon-precomposed" href="/web/haval/Public/Admin/assets/i/app-icon72x72@2x.png">
+    <link rel="icon" type="/che/Public/Admin/image/png" href="assets/i/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="/che/Public/Admin/assets/i/app-icon72x72@2x.png">
     <meta name="apple-mobile-web-app-title" content="Amaze UI" />
-    <link rel="stylesheet" href="/web/haval/Public/Admin/assets/css/amazeui.min.css" />
-    <link rel="stylesheet" href="/web/haval/Public/Admin/assets/css/admin.css">
-    <link rel="stylesheet" href="/web/haval/Public/Admin/assets/css/app.css">
+    <link rel="stylesheet" href="/che/Public/Admin/assets/css/amazeui.min.css" />
+    <link rel="stylesheet" href="/che/Public/Admin/assets/css/admin.css">
+    <link rel="stylesheet" href="/che/Public/Admin/assets/css/app.css">
 </head>
 
 <body data-type="generalComponents">
@@ -24,7 +24,7 @@
     <header class="am-topbar am-topbar-inverse admin-header">
     <div class="am-topbar-brand">
         <a href="javascript:;" class="tpl-logo">
-            <img src="/web/haval/Public/Admin/assets/img/logo.png" alt="">
+            <img src="/che/Public/Admin/assets/img/logo.png" alt="">
         </a>
     </div>
     <div class="am-icon-list tpl-header-nav-hover-ico am-fl am-margin-right">
@@ -44,7 +44,7 @@
             <li class="am-dropdown" data-am-dropdown data-am-dropdown-toggle>
                 <a class="am-dropdown-toggle tpl-header-list-link" href="javascript:;">
                     <span class="tpl-header-list-user-nick">禁言小张</span><span class="tpl-header-list-user-ico"> <img
-                        src="/web/haval/Public/Admin/assets/img/user01.png"></span>
+                        src="/che/Public/Admin/assets/img/user01.png"></span>
                 </a>
                 <ul class="am-dropdown-content">
                     <li><a href="#"><span class="am-icon-bell-o"></span> 资料</a></li>
@@ -71,13 +71,13 @@
     <div class="tpl-left-nav-list">
         <ul class="tpl-left-nav-menu">
             <li class="tpl-left-nav-item">
-                <a href="/web/haval/index.php/Admin/Index/form-amazeui.html" class="nav-link">
+                <a href="/che/index.php/Admin/Index/form-amazeui.html" class="nav-link">
                     <i class="am-icon-home"></i>
                     <span>首页</span>
                 </a>
             </li>
 			 <li class="tpl-left-nav-item">
-                <a href="/web/haval/index.php/Admin/Index/userlist.html" class="nav-link">
+                <a href="/che/index.php/Admin/Index/userlist.html" class="nav-link">
                     <i class="am-icon-home"></i>
                     <span>管理员管理</span>
                 </a>
@@ -94,13 +94,13 @@
                 <ul class="tpl-left-nav-sub-menu" style="display: block;">
                     <li>
                         <!-- 打开状态 a 标签添加 active 即可   -->
-                        <a href="/web/haval/index.php/Admin/Index/form-amazeui.html">
+                        <a href="/che/index.php/Admin/Index/form-amazeui.html">
                             <i class="am-icon-angle-right"></i>
                             <span>品牌增加</span>
                             <i class="am-icon-star tpl-left-nav-content-ico am-fr am-margin-right"></i>
                         </a>
 
-                        <a href="/web/haval/index.php/Admin/Index/brondlist.html">
+                        <a href="/che/index.php/Admin/Index/brondlist.html">
                             <i class="am-icon-angle-right"></i>
                             <span>品牌列表</span>
                         </a>
@@ -120,13 +120,13 @@
                 <ul class="tpl-left-nav-sub-menu" style="display: block;">
                     <li>
                         <!-- 打开状态 a 标签添加 active 即可   -->
-                        <a href="/web/haval/index.php/Admin/Index/addcomponents.html">
+                        <a href="/che/index.php/Admin/Index/addcomponents.html">
                             <i class="am-icon-angle-right"></i>
                             <span>零件种类增加</span>
                             <i class="am-icon-star tpl-left-nav-content-ico am-fr am-margin-right"></i>
                         </a>
 
-                        <a href="/web/haval/index.php/Admin/Index/brondlist2.html">
+                        <a href="/che/index.php/Admin/Index/brondlist2.html">
                             <i class="am-icon-angle-right"></i>
                             <span>查看/增加零件</span>
                         </a>
@@ -145,7 +145,7 @@
                 <ul class="tpl-left-nav-sub-menu" style="display: block;">
                     <li>
                         <!-- 打开状态 a 标签添加 active 即可   -->
-                        <a href="/web/haval/index.php/Admin/Index/shijiayuyue.html">
+                        <a href="/che/index.php/Admin/Index/shijiayuyue.html">
                             <i class="am-icon-angle-right"></i>
                             <span>试驾预约</span>
                             <i class="am-icon-star tpl-left-nav-content-ico am-fr am-margin-right"></i>
@@ -153,7 +153,7 @@
                     </li>
                     <li>
                         <!-- 打开状态 a 标签添加 active 即可   -->
-                        <a href="/web/haval/index.php/Admin/Index/baoyangyuyue.html">
+                        <a href="/che/index.php/Admin/Index/baoyangyuyue.html">
                             <i class="am-icon-angle-right"></i>
                             <span>保养预约</span>
                             <i class="am-icon-star tpl-left-nav-content-ico am-fr am-margin-right"></i>
@@ -161,7 +161,7 @@
                     </li>
 					 <li>
                         <!-- 打开状态 a 标签添加 active 即可   -->
-                        <a href="/web/haval/index.php/Admin/Index/weixiuyuyue.html">
+                        <a href="/che/index.php/Admin/Index/weixiuyuyue.html">
                             <i class="am-icon-angle-right"></i>
                             <span>维修预约</span>
                             <i class="am-icon-star tpl-left-nav-content-ico am-fr am-margin-right"></i>
@@ -181,13 +181,13 @@
                 <ul class="tpl-left-nav-sub-menu" style="display: block;">
                     <li>
                         <!-- 打开状态 a 标签添加 active 即可   -->
-                        <a href="/web/haval/index.php/Admin/Index/brondlist3">
+                        <a href="/che/index.php/Admin/Index/brondlist3">
                             <i class="am-icon-angle-right"></i>
                             <span>价格设置</span>
                             <i class="am-icon-star tpl-left-nav-content-ico am-fr am-margin-right"></i>
                         </a>
 
-                        <a href="/web/haval/index.php/Admin/Index/bjyuyue.html">
+                        <a href="/che/index.php/Admin/Index/bjyuyue.html">
                             <i class="am-icon-angle-right"></i>
                             <span>钣金喷漆预约</span>
                             <i class="am-icon-star tpl-left-nav-content-ico am-fr am-margin-right"></i>
@@ -207,13 +207,13 @@
                 <ul class="tpl-left-nav-sub-menu" style="display: block;">
                     <li>
                         <!-- 打开状态 a 标签添加 active 即可   -->
-                        <a href="/web/haval/index.php/Admin/Index/yanzheng">
+                        <a href="/che/index.php/Admin/Index/yanzheng">
                             <i class="am-icon-angle-right"></i>
                             <span>订单验证</span>
                             <i class="am-icon-star tpl-left-nav-content-ico am-fr am-margin-right"></i>
                         </a>
 
-                        <a href="/web/haval/index.php/Admin/Index/tuikuan.html">
+                        <a href="/che/index.php/Admin/Index/tuikuan.html">
                             <i class="am-icon-angle-right"></i>
                             <span>退款</span>
                             <i class="am-icon-star tpl-left-nav-content-ico am-fr am-margin-right"></i>
@@ -249,7 +249,7 @@
 
 
                         <div class="am-u-sm-12 am-u-md-9">
-                            <form class="am-form am-form-horizontal" method="post" action="/web/haval/index.php/Admin/Index/addcomponent">
+                            <form class="am-form am-form-horizontal" method="post" action="/che/index.php/Admin/Index/addcomponent">
                                 <div class="am-form-group">
                                     <label for="user-name" class="am-u-sm-3 am-form-label">零件分类名称</label>
                                     <div class="am-u-sm-9">
@@ -276,9 +276,9 @@
     </div>
 
 
-    <script src="/web/haval/Public/Admin/assets/js/jquery.min.js"></script>
-    <script src="/web/haval/Public/Admin/assets/js/amazeui.min.js"></script>
-    <script src="/web/haval/Public/Admin/assets/js/app.js"></script>
+    <script src="/che/Public/Admin/assets/js/jquery.min.js"></script>
+    <script src="/che/Public/Admin/assets/js/amazeui.min.js"></script>
+    <script src="/che/Public/Admin/assets/js/app.js"></script>
 </body>
 
 </html>
