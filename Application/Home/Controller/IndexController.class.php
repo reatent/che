@@ -94,8 +94,9 @@ class IndexController extends Controller
 
     function code()
     {
-        $appid = "wx41bec5da2490c1e8";
-        header("Location:https://open.weixin.qq.com/connect/oauth2/authorize?appid=" . $appid . "&redirect_uri=http://haval.weiyunke.com.cn/web/haval/&respo@nse_type=code&scope=snsapi_userinfo&STATE=1#wechat_redirect");
+        $appid = "wx5fb75ffe8ce2b961";
+        header("Location:https://open.weixin.qq.com/connect/oauth2/authorize?appid=" . $appid .
+            "&redirect_uri=http://www.ineusoft.com&response_type=code&scope=snsapi_userinfo&STATE=1#wechat_redirect");
     }
 
 
