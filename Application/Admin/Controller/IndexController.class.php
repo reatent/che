@@ -11,6 +11,12 @@ class IndexController extends Controller
     {
         $this->display();
     }
+    function abc(){
+$carbrand=M("carbrand");
+$info=$carbrand->table("sw_carbrand carbrand,sw_carmodel carmodel, sw_displacement displacement, sw_shijia shijia")->
+where("carbrand.id=carmodel.bid and carmodel.mid=displacement.mid and displacement.did=shijia.did")->select();
+var_dump($info);
+    }
 
     function addlogin1()
     {
